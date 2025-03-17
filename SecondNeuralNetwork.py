@@ -21,4 +21,4 @@ for i in model.parameters():
     total=total + i.numel()
 print(total)
 
-#Hay que balancear complejidad con eficiencia
+#Hay que balancear complejidad con eficienciaa
