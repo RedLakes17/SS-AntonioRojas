@@ -1,6 +1,6 @@
 #Deep learning es una subrama del machine learning, ya que consta de multiples capas y estructuras anidadas muy complejas
 import torch
-#La unidad basica de Pytorch son los Tensor1es. Pueden ser creados a partir de una lista p un array numpy
+#La unidad basica de Pytorch son los Tensores. Pueden ser creados a partir de una lista p un array numpy
 Lista=[[1,2,5],[45,5,98],[23,1,76]]
 Tensor1=torch.tensor(Lista)
 print(Tensor1)
