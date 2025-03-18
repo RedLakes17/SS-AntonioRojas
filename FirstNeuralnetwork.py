@@ -14,6 +14,6 @@ print(OutLayer)
 
 #Parametros de la capa lineal
 print('Los pesos para cada neurona',LinearLayer.weight)
-print('Los vias para cada neurona',LinearLayer.bias)
+print('Los bias para cada neurona',LinearLayer.bias)
 
 

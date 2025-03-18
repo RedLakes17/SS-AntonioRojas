@@ -1,4 +1,4 @@
-#El proposito del Forward Pass es producri predicciones al pasar la informacion a traves de la neurona
+#El proposito del Forward Pass es producir predicciones al pasar la informacion a traves de la neurona
 
 import torch
 import torch.nn as nn

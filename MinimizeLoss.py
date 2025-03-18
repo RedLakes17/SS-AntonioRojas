@@ -1,5 +1,5 @@
 #La prediccion es mala cuando la loss funtion es alta
-#Para mejorar la prediccion debemos actualizar los pesos y bias. Esto lo hacemos con el back 
+#Para mejorar la prediccion debemos actualizar los pesos y bias. Esto lo hacemos con el back propagation
 #Calculamos los gradientes de la funcion de perdida. Un gradiente respecto a cada capa del modelo
 
 import torch
