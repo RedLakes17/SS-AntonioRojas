@@ -3,8 +3,8 @@ from transformers import pipeline
 
 
 # Ejemplo de modelo preentrenado
-generator = pipeline('text-generation', model='gpt2')
-generated_text = generator("Today is a beautiful day and", max_length=30)
+generator = pipeline('text-generation', model='gpt2') #Llama a modelo preentrenado
+generated_text = generator("Today is a beautiful day and", max_length=30) #Completa cadena de texto con un maximo de 30 caracteres
 print(generated_text)
 
 
@@ -19,7 +19,7 @@ from torch.utils.data import Dataset, DataLoader
 
 
 
-# Generating synthetic time-series data
+# Se generan datos que siguen una curva sinosoidal
 def generate_data(size=1000, sequence_length=10):
     data = np.sin(np.linspace(0, 10 * np.pi, size))  # Sine wave data
     sequences = [data[i:i+sequence_length] for i in range(size-sequence_length)]
